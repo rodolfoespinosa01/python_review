@@ -37,9 +37,9 @@ measurement = input('(L)bs or (K)g: ')
 
 if measurement.lower() == 'l':
     new_weight = int(weight) * .45
-    print(new_weight)
+    print(f"You are {new_weight} kg")
 elif measurement.lower() == 'k':
     new_weight = int(weight) * 2.2
-    print(new_weight)
+    print(f"You are {new_weight} lbs")
 else:
     print('invalid measurement')
