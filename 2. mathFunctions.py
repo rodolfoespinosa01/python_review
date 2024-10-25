@@ -14,3 +14,6 @@ print(math.ceil(2.9))  # Using the ceiling function
 print(math.floor(2.9))  # Floor function
 
 # google python3 math module to view the documentation
+
+print(math.fabs(-48)) #return the absolute value of x
+
